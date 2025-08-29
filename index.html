@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio | JuanFe Rios</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <meta name="description" content="Portafolio profesional de JuanFe Rios: proyectos, habilidades y contacto." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header & Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Ir al inicio">
+        <span class="logo">JR</span>
+        <span class="brand-text">Felipe C. Rios</span>
+      </a>
+      <button id="menuToggle" class="hamburger" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="siteNav">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <nav id="siteNav" class="nav" aria-label="Navegación primaria">
+        <ul>
+          <li><a href="#about">Acerca de mí</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="https://forms.gle/N7vB59ottC1PETR98">Solicitar Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- Hero -->
+    <section class="hero container" aria-labelledby="titulo-hero">
+      <div class="hero-text">
+        <h1 id="titulo-hero">Desarrollador Web</h1>
+        <h2>Proyectos Con Proposito Social</h2>
+        <p>Creo experiencias web accesibles, rápidas y con impacto social. Aquí encontrarás mis habilidades, proyectos destacados y cómo contactarme.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">Ver proyectos</a>
+          <a class="btn ghost" href="https:wa.me/+573122114428">Contáctame</a>
+        </div>
+      </div>
+      <picture class="hero-media">
+        <img src="assets/Foto.jpeg" alt="Avatar de JuanFe Rios" loading="lazy" />
+      </picture>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section container" aria-labelledby="sec-about">
+      <div class="section-head">
+        <h2 id="sec-about">¿Quien soy?</h2>
+        <p class="muted">Soy programador enfocado en desarrollo web, tengo interés en proyectos de impacto social.</p>
+      </div>
+      <div class="about-grid">
+        <article class="card">
+          <h3>Perfil</h3>
+          <p>Estudiante del Politécnico Internacional de Occidente y colaborador en iniciativas como Fundación ROFÉ. Me apasiona la innovación con propósito.</p>
+          <ul class="tags">
+            <li>#CodigoConValor</li>
+            <li>#ResponsabilidadSocial</li>
+            <li>#ImpactoSocial</li>
+            <li>#DesarrolloDeSoftware</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Servicios</h3>
+          <ul>
+            <li>Enseñanza de HTML</li>
+            <li>Enseñanza de CSS</li>
+            <li>Enseñanza de JavaScript</li>
+            </li>Enseñanza de SQL</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+<section id="skills" class="section container" aria-labelledby="sec-skills">
+  <div class="section-head">
+    <h2 id="sec-skills">Habilidades</h2>
+    <p class="muted">Descripción breve de mis conocimientos y experiencia.</p>
+  </div>
+  <div class="skills-grid">
+    <div class="skill">
+      <div class="skill-top">
+        <span>Desarrollo Web</span>
+      </div>
+      <p class="skill-desc">
+       Creación de sitios y aplicaciones web modernas con enfoque en diseño responsivo, accesibilidad, optimización de rendimiento y buenas prácticas de programación.
+      </p>
+    </div>
+    <div class="skill">
+      <div class="skill-top">
+        <span>Gestión de Proyectos Tecnológicos y Sociales</span>
+      </div>
+      <p class="skill-desc">
+       Planificación, organización y ejecución de proyectos que combinan la tecnología con el impacto social, asegurando resultados efectivos y sostenibles.
+      </p>
+    </div>
+    <div class="skill">
+      <div class="skill-top">
+        <span>Asesoramiento y Capacitación</span>
+      </div>
+      <p class="skill-desc">
+        Acompañamiento a personas y equipos en procesos de aprendizaje digital, brindando formación en herramientas tecnológicas y metodologías prácticas.
+      </p>
+    </div>
+    <div class="skill">
+      <div class="skill-top">
+        <span>Enseñanza de Programación</span>
+      </div>
+      <p class="skill-desc">
+       Diseño y desarrollo de contenidos formativos para enseñar programación desde lo básico hasta niveles intermedios, utilizando HTML, CSS, JavaScript y SQL, con un enfoque práctico y claro.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container" aria-labelledby="sec-projects">
+      <div class="section-head">
+        <h2 id="sec-projects">Proyectos</h2>
+        <p class="muted">Proximamene disponible.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card" tabindex="0" data-title="Gestor de tareas colaborativas" data-desc="Aplicación MERN para gestionar tareas en equipo con tiempo real y roles." data-tech="MongoDB, Express, React, Node">
+          <div class="project-thumb"></div>
+          <div class="project-body">
+            <h3>Gestor de tareas colaborativas</h3>
+            <p>Productividad y un diseño limpio.</p>
+            <button class="btn small" aria-haspopup="dialog">Ver más</button>
+          </div>
+        </article>
+        <article class="project-card" tabindex="0" data-title="Blog Fundación ROFÉ" data-desc="Blog informativo para difusión de actividades y recursos comunitarios." data-tech="HTML, CSS, JavaScript">
+          <div class="project-thumb"></div>
+          <div class="project-body">
+            <h3>Blog Fundación ROFÉ</h3>
+            <p>Conectando oportunidades con personas.</p>
+            <button class="btn small" aria-haspopup="dialog">Ver más</button>
+          </div>
+        </article>
+        <article class="project-card" tabindex="0" data-title="Base de datos académica" data-desc="Modelo de base de datos para academia con 45 tablas y datos de ejemplo." data-tech="MySQL, Workbench">
+          <div class="project-thumb"></div>
+          <div class="project-body">
+            <h3>Base de datos académica</h3>
+            <p>Estructura robusta y consultas eficientes.</p>
+            <button class="btn small" aria-haspopup="dialog">Ver más</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  <!-- FOOTER -->
+<footer class="footer">
+  <ul class="social-icon">
+    <li class="icon-elem">
+      <a href="mailto:juancastrorios18@gmail.com" class="icon" target="_blank">
+        <ion-icon name="mail-outline"></ion-icon>
+      </a>
+    </li>
+    <li class="icon-elem">
+      <a href="https://wa.me/+573122114428" class="icon" target="_blank">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+      </a>
+    </li>
+    <li class="icon-elem">
+      <a href="https://www.linkedin.com/in/felipe-rios-of" class="icon" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+    </li>
+    <li class="icon-elem">
+      <a href="https://github.com/FelipeRios-dev" class="icon" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+    </li>
+  </ul>
+
+  <ul class="menu">
+    <li class="menu-elem">
+      <a href="#about" class="menu-icon">¿Quien Soy?</a>
+    </li>
+    
+    <li class="menu-elem">
+      <a href="#skills" class="menu-icon">Habilidades</a>
+    </li>
+
+    <li class="menu-elem">
+      <a href="#projects" class="menu-icon">Proyectos</a>
+    </li>
+
+     <li class="menu-elem">
+      <a href="assets/Felipe C. Ríos PortFolio.pdf" class="menu-icon">Portafolio</a>
+
+       <li class="menu-elem">
+      <a href="assets/Felipe C. Ríos.pdf" class="menu-icon">Hoja De Vida</a>
+
+    </li>
+  </ul>
+
+  <p class="text">© 2025 Felipe C.Rios | Todos los derechos reservados</p>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</footer>
+
+  <!-- Modal -->
+  <dialog id="projectModal" aria-labelledby="modalTitle" aria-describedby="modalDesc">
+    <form method="dialog">
+      <h3 id="modalTitle">Título</h3>
+      <p id="modalDesc">Descripción</p>
+      <p class="muted" id="modalTech"></p>
+      <menu>
+        <button class="btn ghost" value="cancel">Cerrar</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
